@@ -14,7 +14,7 @@ import Checkout from './components/Checkout/Checkout';
 const App = () => {
   return (
     <CarritoProvider> {/* Asegura que el CarritoContext esté disponible para todos los componentes */}
-      <Router basename="/ProyectoFinal-Moccia"> {/* Configuración del basename */}
+      <Router > {/* Configuración del basename */}
         <NavBar />
         <Routes>
           <Route path="/" element={<Inicio />} />

@@ -2,7 +2,7 @@ import { createContext, useState } from "react";
 
 export const CarritoContext = createContext();
 
-const CarritoProvider = ({ children }) => {
+export const CarritoProvider = ({ children }) => {
   const [productosEnCarrito, setProductosEnCarrito] = useState([]);
   const [cantidadEnCarrito, setCantidadEnCarrito] = useState(0);
 

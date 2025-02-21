@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ProyectoFinal-Moccia/',
+  base: '/', // Cambié el base a '/' para que las rutas funcionen bien localmente
 })
