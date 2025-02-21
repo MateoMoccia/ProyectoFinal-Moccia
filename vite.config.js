@@ -3,10 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ProyectoFinal-Moccia/',
-  server: {
-    mimeTypes: {
-      jsx: 'application/javascript',
-    }
-  },
+  base: '/ProyectoFinal-Moccia/',  // Asegura que las rutas sean correctas
 });
